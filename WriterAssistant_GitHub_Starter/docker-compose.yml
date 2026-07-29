@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: writerassistant
+      POSTGRES_USER: writerassistant
+      POSTGRES_PASSWORD: devpassword
+    ports:
+      - "5432:5432"
